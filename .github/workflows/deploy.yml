@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main  # spouštět při push do větve main
+      - master
 
 jobs:
   build-and-deploy:
