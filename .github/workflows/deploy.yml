@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run tests
-        run: npm test
+        run: npm run test
 
   build:
     needs: test
